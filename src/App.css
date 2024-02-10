@@ -75,3 +75,14 @@ button:hover{
     background-color: transparent;
     color: crimson;
 }
+
+@media screen and (max-width:744px) {
+    .container {
+        background-color: rgb(255,255,209);
+        width: 100%;
+        margin: auto;
+        min-height: 100vh;
+        padding: 2vmax 4vmax;
+        box-sizing: border-box;
+    }
+}
